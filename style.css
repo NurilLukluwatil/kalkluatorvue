@@ -1,0 +1,64 @@
+@media (max-width: 670px) {
+  #app {
+    width: 200px;
+  }
+  #app h2 {
+    font-size: 15px;
+  }
+  #app input {
+    width: 50%;
+  }
+  #app p {
+    font-size: 12px;
+  }
+}
+body {
+  display: grid;
+  height: 100%;
+  text-align: center;
+  place-items: center;
+}
+#app button {
+  /* position: absolute; */
+  width: 150px;
+  height: 50px;
+  margin: 10px 10px 0 10px;
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(165, 168, 158, 0.822);
+}
+
+#app {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  height: 400px;
+  width: 60vw;
+  /* width: 400px;
+  height: 400px; */
+  text-align: center;
+  border: 5px rgb(179, 176, 176) solid;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  background: radial-gradient(rgb(245, 243, 243), rgba(224, 185, 224, 0.867));
+}
+
+#app h2 {
+  letter-spacing: 1.5px;
+}
+
+input {
+  margin: 15px 5px;
+  width: 80%;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  border: 3px grey solid;
+}
+
+#app p {
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}

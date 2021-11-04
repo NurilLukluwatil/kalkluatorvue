@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="vue.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Kalulator-VueJs</title>
+</head>
+<body>
+    <div id="app">
+        <h2>Projek Kalkulator Sederhana dengan VueJs</h2>
+
+        <input type="text" v-model="bil1" class="in1">
+        <input type="text" v-model="bil2" >
+        <br>
+        <button @click="tambah()" class="bt1">+</button>
+        
+        <button @click="kurang()" class="bt">-</button>
+        
+        <button @click="kali()" class="bt">x</button>
+        
+        <button @click="bagi()" class="bt">/</button>
+        <div>
+            <p>{{hasil}}</p>
+        </div>
+
+    </div>
+    <br>
+
+    <!-- <div id="app">
+        <input type="text" v-model="bil1"> - <input type="text" v-model="bil2">
+        <button @click="kurang()"></button>
+        {{hasil1}}
+    </div> -->
+
+    <!-- <div id="app">
+        <input type="text" v-model="bil1"> * <input type="text" v-model="bil2">
+        <button @click="tambah()">=</button>
+        {{hasil}}
+    </div>
+
+    <div id="app">
+        <input type="text" v-model="bil1"> / <input type="text" v-model="bil2">
+        <button @click="tambah()">=</button>
+        {{hasil}}
+    </div> -->
+
+    <script src="app.js"></script>
+</body>
+</html>
